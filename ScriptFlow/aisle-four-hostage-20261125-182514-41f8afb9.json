@@ -1,0 +1,402 @@
+{
+  "snapshotHash": "41f8afb9",
+  "document": {
+    "schemaVersion": "0.4.0",
+    "preamble": [],
+    "stagingMacroBlocks": [
+      {
+        "id": "MB0",
+        "header": "INTENT",
+        "kind": "INTENT",
+        "format": "prose",
+        "body": "Create a deadpan physical comedy continuous oner set inside a brightly lit neighborhood supermarket, featuring @image1 as Mark with an orange tabby cat perched atop his head as the cat wraps its extraordinarily long tail around Mark's neck and chokes him mid-aisle."
+      },
+      {
+        "id": "MB1",
+        "header": "LOGIC",
+        "kind": "LOGIC",
+        "format": "prose",
+        "body": "Maintain a continuous single-camera Steadicam oner following Mark from the automatic entrance doors into the produce and cereal aisles, preserving consistent left-to-right screen progression and unbroken physical continuity. The orange tabby cat remains perched atop Mark's head throughout, its unusually long tail dangling behind his right shoulder until it coils around his throat. Mark carries a red plastic shopping basket in his left hand until he drops it in the cereal aisle, keeping his right hand free to reach for items or tug at the tail. No subtitles appear on screen."
+      },
+      {
+        "id": "MB2",
+        "header": "AESTHETIC",
+        "kind": "AESTHETIC",
+        "format": "key_value",
+        "entries": [
+          {
+            "id": "MB2.0",
+            "key": "Medium",
+            "value": "Continuous Steadicam digital cinematography, natural 35mm-equivalent perspective, crisp everyday clarity"
+          },
+          {
+            "id": "MB2.1",
+            "key": "Palette",
+            "value": "Sterile supermarket white, vibrant produce greens and reds, warm ginger tabby orange, faded denim blue"
+          },
+          {
+            "id": "MB2.2",
+            "key": "Lighting",
+            "value": "Overhead cool-white fluorescent supermarket tubes, even commercial fill, subtle glass-door daylight spill at the entrance"
+          },
+          {
+            "id": "MB2.3",
+            "key": "Location",
+            "value": "Neighborhood grocery store entrance opening into a wide produce section and a narrow cereal aisle with linoleum floors"
+          },
+          {
+            "id": "MB2.4",
+            "key": "Wardrobe",
+            "value": "Mark in a rumpled light-blue button-down shirt, dark jeans, and worn white sneakers; an orange tabby cat with a strikingly long tail perched on his head"
+          },
+          {
+            "id": "MB2.5",
+            "key": "Audio",
+            "value": "Overhead supermarket hum, distant checkout beeps, soft linoleum footsteps, faint pop muzak over ceiling speakers"
+          }
+        ]
+      },
+      {
+        "id": "MB3",
+        "header": "OPENING",
+        "kind": "OPENING",
+        "format": "prose",
+        "body": "Medium-wide eye-level view just inside the automatic sliding glass entrance of a brightly lit supermarket. Frame-center in the midground, Mark stands facing screen-right with a red plastic shopping basket gripped in his left hand and his right hand relaxed at his side. Perched squarely atop Mark's head, an orange tabby cat rests with all four paws tucked into his hair and an extraordinarily long tail dangling down behind his right shoulder. Mark's gaze is fixed straight ahead toward the produce displays."
+      }
+    ],
+    "executionMacroBlock": {
+      "header": "EXECUTION",
+      "macroStates": [
+        {
+          "id": "S1",
+          "subStates": [
+            {
+              "id": "S1.1",
+              "dimension": "camera",
+              "subStateTag": "CAM",
+              "identifier": "01",
+              "content": "Steadicam medium-wide shot, eye-level, inside the supermarket entrance"
+            },
+            {
+              "id": "S1.2",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark, gripping a red plastic shopping basket in his left hand with his right hand free at his side, stands frame-center MG facing screen-right while the orange tabby cat sits perched atop his head with its long tail dangling behind his right shoulder"
+            },
+            {
+              "id": "S1.3",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark steps briskly forward past the sliding glass doors toward the produce displays, keeping his neck stiff to balance the cat"
+            },
+            {
+              "id": "S1.4",
+              "dimension": "foley",
+              "sound": "automatic doors whooshing shut behind Mark and shopping cart wheels rattling in the distance"
+            },
+            {
+              "id": "S1.5",
+              "dimension": "dialogue",
+              "speaker": "Mark",
+              "language": "English",
+              "modifiers": "bright, casual",
+              "line": "Just milk and eggs, in and out."
+            },
+            {
+              "id": "S1.6",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark glances up slightly without tilting his head, his left hand steady on the basket handle and his right hand reaching toward a pyramid of apples"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "subStates": [
+            {
+              "id": "S2.1",
+              "dimension": "camera",
+              "subStateTag": "CAM",
+              "identifier": "01",
+              "content": "TRACKING RIGHT alongside Mark into the produce aisle"
+            },
+            {
+              "id": "S2.2",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark, red basket in his left hand, picks up a green apple with his right hand and drops it into the basket as the cat atop his head shifts its weight forward and flicks its long tail across Mark's cheek"
+            },
+            {
+              "id": "S2.3",
+              "dimension": "foley",
+              "sound": "soft thud of the apple hitting plastic"
+            },
+            {
+              "id": "S2.4",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark blinks and brushes the tail tip aside with his right hand, but the cat whips its tail around the front of Mark's throat and loops it snug around his neck"
+            },
+            {
+              "id": "S2.5",
+              "dimension": "dialogue",
+              "speaker": "Mark",
+              "language": "English",
+              "modifiers": "startled, tight",
+              "line": "Whoa—hey, cut that out."
+            },
+            {
+              "id": "S2.6",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark freezes mid-step beside the banana display, left hand clutching the basket handle and right hand hovering near his collar"
+            }
+          ]
+        },
+        {
+          "id": "S3",
+          "subStates": [
+            {
+              "id": "S3.1",
+              "dimension": "camera",
+              "subStateTag": "CAM",
+              "identifier": "01",
+              "content": "PUSHING IN closer toward Mark's shoulders and face"
+            },
+            {
+              "id": "S3.2",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "The cat digs its front paws into Mark's hair and cinches its long tail tighter around his windpipe; Mark, red basket still in his left hand, grabs at the furry coil at his throat with his right hand"
+            },
+            {
+              "id": "S3.3",
+              "dimension": "dialogue",
+              "speaker": "Mark",
+              "language": "English",
+              "modifiers": "strained, raspy",
+              "line": "I cannot... breathe..."
+            },
+            {
+              "id": "S3.4",
+              "dimension": "foley",
+              "sound": "quiet purring rumble from above Mark's head mixed with Mark's wheezing inhale"
+            },
+            {
+              "id": "S3.5",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark stumbles forward two steps into the cereal aisle, his face flushing red as he tries to pry a finger beneath the tail with his right hand while the basket swings from his left"
+            }
+          ]
+        },
+        {
+          "id": "S4",
+          "subStates": [
+            {
+              "id": "S4.1",
+              "dimension": "camera",
+              "subStateTag": "CAM",
+              "identifier": "01",
+              "content": "ARCING slightly around Mark to frame his flushed face in three-quarter profile"
+            },
+            {
+              "id": "S4.2",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark, sweat beading on his forehead, drops the red basket onto the linoleum floor from his left hand and brings both hands up to tug desperately at the cat's tail coiled around his neck"
+            },
+            {
+              "id": "S4.3",
+              "dimension": "foley",
+              "sound": "clatter of the plastic basket hitting the linoleum floor"
+            },
+            {
+              "id": "S4.4",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "The cat flattens its ears and braces all four paws against Mark's scalp, yanking its tail even tighter as Mark's knees buckle and his shoulder bumps a cereal shelf"
+            },
+            {
+              "id": "S4.5",
+              "dimension": "foley",
+              "sound": "cardboard cereal boxes rustling and sliding on the metal shelf"
+            },
+            {
+              "id": "S4.6",
+              "dimension": "dialogue",
+              "speaker": "Mark",
+              "language": "English",
+              "modifiers": "choked, wheezing",
+              "line": "People... are looking..."
+            },
+            {
+              "id": "S4.7",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark braces his back against the cereal shelving, both hands still pulling weakly at the tail around his flushed neck"
+            }
+          ]
+        },
+        {
+          "id": "S5",
+          "subStates": [
+            {
+              "id": "S5.1",
+              "dimension": "camera",
+              "subStateTag": "CAM",
+              "identifier": "01",
+              "content": ""
+            },
+            {
+              "id": "S5.2",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark, face crimson and eyes watering, slides down along the cereal shelf to a crouch with both hands still locked on the tail at his throat while the cat perches triumphantly atop his head"
+            },
+            {
+              "id": "S5.3",
+              "dimension": "light",
+              "subStateTag": "LIGHT",
+              "content": "Overhead fluorescent aisle tubes cast a crisp sterile glare across Mark's sweat-slicked forehead and the cat's narrowed eyes"
+            },
+            {
+              "id": "S5.4",
+              "dimension": "dialogue",
+              "speaker": "Mark",
+              "language": "English",
+              "modifiers": "barely a whisper, strained",
+              "line": "Okay... tuna... we will get tuna..."
+            },
+            {
+              "id": "S5.5",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark releases his right hand from his neck and points shakily down the aisle toward the pet food section while keeping his left hand wedged under the tail"
+            },
+            {
+              "id": "S5.6",
+              "dimension": "foley",
+              "sound": "choked gasp followed by a sharp, satisfied trill from the cat"
+            }
+          ]
+        },
+        {
+          "id": "S6",
+          "subStates": [
+            {
+              "id": "S6.1",
+              "dimension": "camera",
+              "subStateTag": "CAM",
+              "identifier": "01",
+              "content": "PULLING BACK slightly as Mark rises"
+            },
+            {
+              "id": "S6.2",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "The cat uncoils its long tail from Mark's throat with a slow flick, letting the tip drape loosely over Mark's right shoulder while keeping all four paws planted on his head"
+            },
+            {
+              "id": "S6.3",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark, coughing and rubbing his reddened neck with his right hand, bends down to scoop up the fallen red plastic basket with his left hand"
+            },
+            {
+              "id": "S6.4",
+              "dimension": "foley",
+              "sound": "ragged coughing and the scrape of the plastic basket against linoleum"
+            },
+            {
+              "id": "S6.5",
+              "dimension": "dialogue",
+              "speaker": "Mark",
+              "language": "English",
+              "modifiers": "hoarse, defeated",
+              "line": "Aisle four it is."
+            },
+            {
+              "id": "S6.6",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark straightens up, red basket in his left hand and right hand steadying his collar, and trudges deeper down the aisle toward screen-right with the cat riding motionless atop his head"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "derived": {
+    "referenceBindings": [
+      {
+        "ref": "@image1",
+        "name": "Mark",
+        "sourceMacroBlockId": "MB0",
+        "sourceMacroBlock": "INTENT"
+      }
+    ],
+    "tokenMappings": [],
+    "hasContinuationContext": false,
+    "sceneTopology": "continuous_oner",
+    "cameraSlots": {
+      "01": {
+        "subStateTag": "CAM",
+        "identifier": "01",
+        "establishedAt": "S1",
+        "initialFraming": "Steadicam medium-wide shot, eye-level, inside the supermarket entrance"
+      }
+    },
+    "macroStateContinuity": [
+      {
+        "macroStateId": "S1",
+        "activeCameraIdentifier": "01",
+        "cameraTransition": "ESTABLISH",
+        "currentDescriptor": "Steadicam medium-wide shot, eye-level, inside the supermarket entrance",
+        "effectiveFraming": "Steadicam medium-wide shot, eye-level, inside the supermarket entrance",
+        "referencedTokens": []
+      },
+      {
+        "macroStateId": "S2",
+        "activeCameraIdentifier": "01",
+        "cameraTransition": "HOLD",
+        "currentDescriptor": "TRACKING RIGHT alongside Mark into the produce aisle",
+        "effectiveFraming": "Steadicam medium-wide shot, eye-level, inside the supermarket entrance | TRACKING RIGHT alongside Mark into the produce aisle",
+        "referencedTokens": []
+      },
+      {
+        "macroStateId": "S3",
+        "activeCameraIdentifier": "01",
+        "cameraTransition": "HOLD",
+        "currentDescriptor": "PUSHING IN closer toward Mark's shoulders and face",
+        "effectiveFraming": "Steadicam medium-wide shot, eye-level, inside the supermarket entrance | PUSHING IN closer toward Mark's shoulders and face",
+        "referencedTokens": []
+      },
+      {
+        "macroStateId": "S4",
+        "activeCameraIdentifier": "01",
+        "cameraTransition": "HOLD",
+        "currentDescriptor": "ARCING slightly around Mark to frame his flushed face in three-quarter profile",
+        "effectiveFraming": "Steadicam medium-wide shot, eye-level, inside the supermarket entrance | ARCING slightly around Mark to frame his flushed face in three-quarter profile",
+        "referencedTokens": []
+      },
+      {
+        "macroStateId": "S5",
+        "activeCameraIdentifier": "01",
+        "cameraTransition": "HOLD",
+        "currentDescriptor": "",
+        "effectiveFraming": "Steadicam medium-wide shot, eye-level, inside the supermarket entrance | ARCING slightly around Mark to frame his flushed face in three-quarter profile",
+        "referencedTokens": []
+      },
+      {
+        "macroStateId": "S6",
+        "activeCameraIdentifier": "01",
+        "cameraTransition": "HOLD",
+        "currentDescriptor": "PULLING BACK slightly as Mark rises",
+        "effectiveFraming": "Steadicam medium-wide shot, eye-level, inside the supermarket entrance | PULLING BACK slightly as Mark rises",
+        "referencedTokens": []
+      }
+    ],
+    "diagnostics": []
+  }
+}
