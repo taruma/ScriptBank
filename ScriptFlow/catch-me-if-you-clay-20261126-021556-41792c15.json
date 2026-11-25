@@ -1,0 +1,449 @@
+{
+  "snapshotHash": "41792c15",
+  "document": {
+    "schemaVersion": "0.4.0",
+    "preamble": [],
+    "stagingMacroBlocks": [
+      {
+        "id": "MB0",
+        "header": "INTENT",
+        "kind": "INTENT",
+        "format": "prose",
+        "body": "Create a high-octane, fast-paced 15-second mixed-media montage set across the real-world white travertine terraces of Pamukkale, Turkey, featuring @image1 as Ruby in photorealistic live-action alongside @image2 as Uma and @image3 as Felix as half-sized stop-motion 3D claymation puppets as they race and play keep-away over a cobalt-blue Nazar amulet."
+      },
+      {
+        "id": "MB1",
+        "header": "LOGIC",
+        "kind": "LOGIC",
+        "format": "prose",
+        "body": "Treat each of the 7 shots (~2s per cut) as an independent montage moment across sunlit Pamukkale terrace elevations, giving each shot its own subject, light, and location while keeping left-to-right pursuit screen direction coherent within each cut. Keep Pamukkale and Ruby at full live-action human scale while compositing Uma and Felix as half-height (waist-high) physical claymation puppets into the same harsh daylight shadows, wet-surface reflections, and shallow water physics. Track the cobalt-blue glass Nazar amulet on its short braided leather cord explicitly from hand to hand across every cut. No subtitles appear on screen."
+      },
+      {
+        "id": "MB2",
+        "header": "AESTHETIC",
+        "kind": "AESTHETIC",
+        "format": "key_value",
+        "entries": [
+          {
+            "id": "MB2.0",
+            "key": "Medium",
+            "value": "35mm anamorphic live-action photography (Pamukkale location and full-sized Ruby) composited with physical stop-motion 3D claymation puppets (half-height, waist-high Uma and Felix in matte sculpted clay with subtle tool marks)"
+          },
+          {
+            "id": "MB2.1",
+            "key": "Palette",
+            "value": "blinding travertine white, vivid turquoise thermal water, cobalt blue, olive drab, tangerine, burgundy, warm Anatolian sunlight"
+          },
+          {
+            "id": "MB2.2",
+            "key": "Lighting",
+            "value": "bright high-noon Turkish sun, crisp specular reflections off wet limestone and turquoise pools, clean natural bounce light"
+          },
+          {
+            "id": "MB2.3",
+            "key": "Location",
+            "value": "Pamukkale travertine terraces, stepped white mineral ledges, shallow steaming turquoise thermal pools, distant sunlit valley"
+          },
+          {
+            "id": "MB2.4",
+            "key": "Wardrobe",
+            "value": "Ruby in a cropped olive-drab ripstop windbreaker over a black ribbed tank top, charcoal cargo shorts, and trail-running sneakers; Uma in an unzipped cobalt-and-tangerine colorblock nylon track jacket over a white tee, baggy pleated khaki trousers, and red clay sneakers; Felix in a cream linen short-sleeve camp shirt, burgundy corduroy shorts, brown leather suspenders, round black glasses, and scuffed tan oxfords"
+          },
+          {
+            "id": "MB2.5",
+            "key": "Audio",
+            "value": "diegetic only, no music; rushing mineral water, distant valley breeze"
+          }
+        ]
+      },
+      {
+        "id": "MB3",
+        "header": "OPENING",
+        "kind": "OPENING",
+        "format": "prose",
+        "body": "Wide-angle 24mm eye-level frame across a sunlit white travertine rim and shallow turquoise pool of Pamukkale. Frame-left foreground, live-action Ruby stands crouched facing screen-right with empty hands ready, her gaze angled down toward the amulet. Frame-center midground, half-height waist-high claymation Felix stands facing screen-right with empty hands. Frame-right midground, half-height waist-high claymation Uma stands facing screen-right with the short braided leather cord of a cobalt-blue Nazar amulet gripped in his right hand."
+      }
+    ],
+    "executionMacroBlock": {
+      "header": "EXECUTION",
+      "macroStates": [
+        {
+          "id": "S1",
+          "subStates": [
+            {
+              "id": "S1.1",
+              "dimension": "camera",
+              "subStateTag": "CAM",
+              "identifier": null,
+              "content": "Wide-angle 24mm tracking shot, eye-level, sweeping left-to-right"
+            },
+            {
+              "id": "S1.2",
+              "dimension": "block",
+              "subStateTag": "BLOCK",
+              "content": "Ruby frame-left FG facing screen-right; Felix frame-center MG facing screen-right; Uma frame-right MG facing screen-right"
+            },
+            {
+              "id": "S1.3",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "live-action Ruby bursts forward off the wet travertine step with empty hands pumping, real hair whipping in the sunlight, chasing claymation Uma and Felix across the white rim while Uma grips the cobalt-blue Nazar amulet's braided cord in his right hand"
+            },
+            {
+              "id": "S1.4",
+              "dimension": "dialogue",
+              "speaker": "Ruby",
+              "language": "English",
+              "modifiers": "sharp exertion grunt",
+              "line": "Hup!"
+            },
+            {
+              "id": "S1.5",
+              "dimension": "foley",
+              "sound": "rapid sneakers slapping wet limestone and splashing shallow turquoise water"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "subStates": [
+            {
+              "id": "S2.1",
+              "dimension": "camera",
+              "subStateTag": "CAM",
+              "identifier": null,
+              "content": "Low-angle 24mm tracking shot skimming the turquoise water surface"
+            },
+            {
+              "id": "S2.2",
+              "dimension": "block",
+              "subStateTag": "BLOCK",
+              "content": "Uma frame-left MG facing screen-right; Felix frame-right MG facing screen-right; Ruby frame-left BG closing in"
+            },
+            {
+              "id": "S2.3",
+              "dimension": "light",
+              "subStateTag": "LIGHT",
+              "content": "bright high-noon sun casting crisp specular reflections across the shallow turquoise pool"
+            },
+            {
+              "id": "S2.4",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "claymation Uma, amulet cord in his right hand, cuts hard across a shallow turquoise pool and whips a clean lateral pass to claymation Felix"
+            },
+            {
+              "id": "S2.5",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Felix snatches the braided cord cleanly in his left hand mid-stride without breaking pace, his soaked hems darkening"
+            },
+            {
+              "id": "S2.6",
+              "dimension": "dialogue",
+              "speaker": "Felix",
+              "language": "English",
+              "modifiers": "laughing, breathless",
+              "line": "Too slow, Ruby!"
+            },
+            {
+              "id": "S2.7",
+              "dimension": "foley",
+              "sound": "sharp water spray erupting around clay and rubber soles"
+            }
+          ]
+        },
+        {
+          "id": "S3",
+          "subStates": [
+            {
+              "id": "S3.1",
+              "dimension": "camera",
+              "subStateTag": "CAM",
+              "identifier": null,
+              "content": "Full-body 35mm handheld tracking shot whipping beside Ruby"
+            },
+            {
+              "id": "S3.2",
+              "dimension": "light",
+              "subStateTag": "LIGHT",
+              "content": "harsh high-noon sunlight glinting off wet white travertine and rising steam"
+            },
+            {
+              "id": "S3.3",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "live-action Ruby plants her left palm on a wet travertine step to vault over a steaming turquoise pool, natural water droplets glistening on her skin and clothes, landing in ankle-deep water with empty hands pumping"
+            },
+            {
+              "id": "S3.4",
+              "dimension": "dialogue",
+              "speaker": "Ruby",
+              "language": "English",
+              "modifiers": "grinning, breathless",
+              "line": "Not for long!"
+            },
+            {
+              "id": "S3.5",
+              "dimension": "foley",
+              "sound": "heavy wet sneaker slap and surging water splash"
+            }
+          ]
+        },
+        {
+          "id": "S4",
+          "subStates": [
+            {
+              "id": "S4.1",
+              "dimension": "camera",
+              "subStateTag": "CAM",
+              "identifier": null,
+              "content": "MS tracking backward in front of Felix down a narrow sunlit limestone chute"
+            },
+            {
+              "id": "S4.2",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "half-sized claymation Felix, amulet cord wrapped around his left fist held high near his chest, glances up and back over his right shoulder at full-sized live-action Ruby charging behind him and darts around a low mineral shelf"
+            },
+            {
+              "id": "S4.3",
+              "dimension": "dialogue",
+              "speaker": "Felix",
+              "language": "English",
+              "modifiers": "yelping, startled",
+              "line": "Whoa—!"
+            },
+            {
+              "id": "S4.4",
+              "dimension": "foley",
+              "sound": "hollow echoing footsteps and wet panting reverberating off terraced stone"
+            }
+          ]
+        },
+        {
+          "id": "S5",
+          "subStates": [
+            {
+              "id": "S5.1",
+              "dimension": "camera",
+              "subStateTag": "CAM",
+              "identifier": null,
+              "content": "Eye-level 35mm lateral tracking shot across a broad white shelf"
+            },
+            {
+              "id": "S5.2",
+              "dimension": "block",
+              "subStateTag": "BLOCK",
+              "content": "Felix frame-center MG facing screen-right; Ruby frame-left MG lunging screen-right; Uma frame-right BG cheering"
+            },
+            {
+              "id": "S5.3",
+              "dimension": "light",
+              "subStateTag": "LIGHT",
+              "content": "bright high-noon sun throwing crisp shadows across the broad white shelf"
+            },
+            {
+              "id": "S5.4",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "claymation Felix transfers the wet braided cord into his right fist, slips onto one knee in a shallow turquoise pool, and slides two feet while holding the amulet high in his right hand as live-action Ruby closes in"
+            },
+            {
+              "id": "S5.5",
+              "dimension": "dialogue",
+              "speaker": "Felix",
+              "language": "English",
+              "modifiers": "panicked gasp, laughing",
+              "line": "Uh oh!"
+            },
+            {
+              "id": "S5.6",
+              "dimension": "foley",
+              "sound": "slick clay-and-corduroy skid through shallow water"
+            }
+          ]
+        },
+        {
+          "id": "S6",
+          "subStates": [
+            {
+              "id": "S6.1",
+              "dimension": "camera",
+              "subStateTag": "CAM",
+              "identifier": null,
+              "content": "Dynamic low-angle MS cutting across the lower basin"
+            },
+            {
+              "id": "S6.2",
+              "dimension": "block",
+              "subStateTag": "BLOCK",
+              "content": "Ruby frame-left MG lunging screen-right; Felix frame-right MG facing screen-left; Uma frame-right BG rushing down"
+            },
+            {
+              "id": "S6.3",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "live-action Ruby surges through ankle-deep water, lunges forward reaching down with her right arm extended, and snatches the braided cord straight from half-sized claymation Felix's raised right fist"
+            },
+            {
+              "id": "S6.4",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Felix tumbles sideways into the shallow pool as Ruby, amulet cord now gripped tightly in her right hand, spins cleanly out of the lunge"
+            },
+            {
+              "id": "S6.5",
+              "dimension": "dialogue",
+              "speaker": "Ruby",
+              "language": "English",
+              "modifiers": "laughing, breathless",
+              "line": "Mine now!"
+            },
+            {
+              "id": "S6.6",
+              "dimension": "foley",
+              "sound": "heavy splash as Felix hits the water and triumphant gasp from Ruby"
+            }
+          ]
+        },
+        {
+          "id": "S7",
+          "subStates": [
+            {
+              "id": "S7.1",
+              "dimension": "camera",
+              "subStateTag": "CAM",
+              "identifier": null,
+              "content": "Wide 24mm hero shot pushing slightly in"
+            },
+            {
+              "id": "S7.2",
+              "dimension": "block",
+              "subStateTag": "BLOCK",
+              "content": "Ruby frame-center MG facing camera; Uma frame-left MG facing screen-right; Felix frame-right MG facing screen-left"
+            },
+            {
+              "id": "S7.3",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "live-action Ruby skids to a stop on the sun-drenched terrace rim, raising the cobalt-blue Nazar amulet high in her right hand as water drips from her soaked clothes"
+            },
+            {
+              "id": "S7.4",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "soaked half-sized claymation Uma and Felix scramble up and collapse laughing against Ruby's waist and hips on either side, water dripping from their matte clay skin and wet clothes"
+            },
+            {
+              "id": "S7.5",
+              "dimension": "dialogue",
+              "speaker": "Ruby",
+              "language": "English",
+              "modifiers": "panting, victorious",
+              "line": "Got it!"
+            },
+            {
+              "id": "S7.6",
+              "dimension": "dialogue",
+              "speaker": "Uma",
+              "language": "English",
+              "modifiers": "winded, chuckling",
+              "line": "Okay, you win!"
+            },
+            {
+              "id": "S7.7",
+              "dimension": "foley",
+              "sound": "dripping water pattering on stone and three-way breathless laughter"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "derived": {
+    "referenceBindings": [
+      {
+        "ref": "@image1",
+        "name": "Ruby",
+        "sourceMacroBlockId": "MB0",
+        "sourceMacroBlock": "INTENT"
+      },
+      {
+        "ref": "@image2",
+        "name": "Uma",
+        "sourceMacroBlockId": "MB0",
+        "sourceMacroBlock": "INTENT"
+      },
+      {
+        "ref": "@image3",
+        "name": "Felix",
+        "sourceMacroBlockId": "MB0",
+        "sourceMacroBlock": "INTENT"
+      }
+    ],
+    "tokenMappings": [],
+    "hasContinuationContext": false,
+    "sceneTopology": "discontinuous_montage",
+    "cameraSlots": {},
+    "macroStateContinuity": [
+      {
+        "macroStateId": "S1",
+        "activeCameraIdentifier": null,
+        "cameraTransition": "MONTAGE",
+        "currentDescriptor": "Wide-angle 24mm tracking shot, eye-level, sweeping left-to-right",
+        "effectiveFraming": "Wide-angle 24mm tracking shot, eye-level, sweeping left-to-right",
+        "referencedTokens": []
+      },
+      {
+        "macroStateId": "S2",
+        "activeCameraIdentifier": null,
+        "cameraTransition": "MONTAGE",
+        "currentDescriptor": "Low-angle 24mm tracking shot skimming the turquoise water surface",
+        "effectiveFraming": "Low-angle 24mm tracking shot skimming the turquoise water surface",
+        "referencedTokens": []
+      },
+      {
+        "macroStateId": "S3",
+        "activeCameraIdentifier": null,
+        "cameraTransition": "MONTAGE",
+        "currentDescriptor": "Full-body 35mm handheld tracking shot whipping beside Ruby",
+        "effectiveFraming": "Full-body 35mm handheld tracking shot whipping beside Ruby",
+        "referencedTokens": []
+      },
+      {
+        "macroStateId": "S4",
+        "activeCameraIdentifier": null,
+        "cameraTransition": "MONTAGE",
+        "currentDescriptor": "MS tracking backward in front of Felix down a narrow sunlit limestone chute",
+        "effectiveFraming": "MS tracking backward in front of Felix down a narrow sunlit limestone chute",
+        "referencedTokens": []
+      },
+      {
+        "macroStateId": "S5",
+        "activeCameraIdentifier": null,
+        "cameraTransition": "MONTAGE",
+        "currentDescriptor": "Eye-level 35mm lateral tracking shot across a broad white shelf",
+        "effectiveFraming": "Eye-level 35mm lateral tracking shot across a broad white shelf",
+        "referencedTokens": []
+      },
+      {
+        "macroStateId": "S6",
+        "activeCameraIdentifier": null,
+        "cameraTransition": "MONTAGE",
+        "currentDescriptor": "Dynamic low-angle MS cutting across the lower basin",
+        "effectiveFraming": "Dynamic low-angle MS cutting across the lower basin",
+        "referencedTokens": []
+      },
+      {
+        "macroStateId": "S7",
+        "activeCameraIdentifier": null,
+        "cameraTransition": "MONTAGE",
+        "currentDescriptor": "Wide 24mm hero shot pushing slightly in",
+        "effectiveFraming": "Wide 24mm hero shot pushing slightly in",
+        "referencedTokens": []
+      }
+    ],
+    "diagnostics": []
+  }
+}
