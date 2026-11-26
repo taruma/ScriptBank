@@ -1,0 +1,70 @@
+{
+  "format": "auteur-agent-context-pack",
+  "packVersion": 1,
+  "exportedAt": "2026-11-26T12:00:00.000Z",
+  "skills": {
+    "knowledgeVersion": "0.4.0-k5",
+    "foundationalCraftOverride": null,
+    "skillOverrides": {
+      "pov_subjective_optics": {
+        "pinMode": "pinned"
+      },
+      "montage_and_duration_budget": {
+        "pinMode": "pinned"
+      }
+    },
+    "customSkills": [
+      {
+        "id": "pov_subjective_optics",
+        "name": "Subjective POV & Scale Cropping",
+        "triggerHint": "Applies whenever any Macro-State uses subjective/POV framing or tight CU/ECU camera recalls.",
+        "body": "Subjective POV & Framing Discipline:\n- POV Subject-Camera Identity: When [CAM] or [CAM ##] specifies `POV` or `Subjective`, the camera IS the subject's eyes/head. In [ACT], direct ONLY optical displacement, world parallax, and lens-edge foreground framing (e.g., whiskers, paws, or hands intruding at the bottom frame edges).\n- Never place the POV subject in third-person or lateral screen-space crossing (`darts screen-right`, `nudging his flank`, `glances up`, `scampers out`). Translate [LOGIC] forward progression into Z-axis camera surge, tilt, or banking toward/past targets.\n- Tight-CU Recall Cropping: When recalling an established tight close-up (`tight CU`, `ECU`, or height-locked setup like `paw height`), verify every trait in [ACT] (upright tail, collar, overhead props) actually fits inside that tight framing; otherwise recall a wider slot or keep [ACT] strictly inside the tight frame."
+      },
+      {
+        "id": "montage_and_duration_budget",
+        "name": "Montage Continuity & Duration Budget",
+        "triggerHint": "Applies when switching between montage and continuous coverage, or when Macro-State counts compete with target runtime.",
+        "body": "Montage Independence & Duration Calibration:\n- Do Not Collapse Montage into Real-Time Coverage: When a user asks for a `montage` AND asks for `continuity between shots`, preserve visual/thematic match-cuts and character appearance continuity across plain unnumbered `[CAM]` setups—do NOT silently convert back to numbered `multi_camera_coverage` (`CAM 01`–`CAM 04`) or pack unrelated gags onto one continuous block.\n- Conflicting User Constraints (Beats vs. Duration): Every cut needs ~1.5s–2.5s (`max cuts = Duration(s) / 2.0`), and each Macro-State needs room for its chained `[ACT]` beats. If a user asks for more Macro-States or gags than the stated `[INTENT]` runtime can physically hold (e.g., 7 multi-action shots in 10 seconds), explicitly resolve the conflict—either consolidate cuts, keep each montage shot to one crisp single-action gag, or propose expanding the `[INTENT]` runtime (and note the tradeoff in your reply)."
+      }
+    ],
+    "toolProtocolOverride": null,
+    "enforceToolLinterGate": true,
+    "toolOverrides": {}
+  },
+  "quickScanRules": {
+    "rulesVersion": "0.4.0-qs2",
+    "ruleOverrides": {
+      "state_cam_visibility": {
+        "instructionsOverride": "Does {{STATE_ID}} describe a visual [ACT] detail (such as eyes, pupils, upright tail, collar, overhead props, or hidden hand action) that is physically hidden, unreadable, or cropped out from {{STATE_ID}}'s active [CAM] framing and shot scale?",
+        "trueDescriptionOverride": "{{STATE_ID}} describes physical or anatomical details that cannot be seen because the active camera is behind the subject, aimed elsewhere, too wide, or too tight (e.g., a tight CU/ECU or paw/hand-height setup cropping out upper-body, collar, or upright-tail action)."
+      },
+      "doc_intent_shotlist": {
+        "trueDescriptionOverride": "[INTENT] enumerates an ordered shot-by-shot breakdown or sequential play-by-play choreography (e.g., 'first X, then cut to Y, then Z'), rather than summarizing a multi-camera setup at a high level."
+      }
+    },
+    "customRules": [
+      {
+        "id": "state_pov_optics_purity",
+        "lens": "lens1_spatial_optics",
+        "scope": "macro_state",
+        "label": "Subjective POV Optics Purity",
+        "when": ["has_action"],
+        "instructions": "If {{STATE_ID}} uses a subjective or first-person POV camera, does any [ACT] Sub-State break POV by describing the camera-holder in third person or moving laterally across the frame (e.g., 'darts screen-right', 'nudging his flank', 'glances up') instead of optical lens motion?",
+        "trueDescription": "{{STATE_ID}} uses a subjective/POV camera while [ACT] describes the POV subject from outside in third person or crossing laterally screen-left/screen-right.",
+        "falseDescription": "Either {{STATE_ID}} is not a subjective POV shot, or its [ACT] Sub-States strictly describe optical lens motion, world parallax, and foreground lens-edge framing.",
+        "escalationHint": "Rewrite POV [ACT] Sub-States in {{STATE_ID}} purely from what the lens sees (surge, bank, tilt, foreground edge framing), removing third-person body choreography and lateral screen-direction."
+      },
+      {
+        "id": "doc_temporal_pacing",
+        "lens": "lens2_temporal_pacing_wear",
+        "scope": "document",
+        "label": "Cut-Latency & Action Density Budget",
+        "when": ["has_intent"],
+        "instructions": "Does [EXECUTION] exceed the target duration stated in [INTENT] by having more camera cuts than Duration(s) / 2.0, or by packing multiple sequential physical actions into individual Macro-States that leave under 1.5s per shot?",
+        "trueDescription": "The scene packs too many camera cuts (exceeding Duration/2) or too many multi-step physical actions per Macro-State for the runtime declared in [INTENT].",
+        "falseDescription": "Cut count stays within Duration/2 (~1.5s–2.5s per cut) and each Macro-State's choreography fits comfortably within the [INTENT] runtime.",
+        "escalationHint": "Either hold/merge camera slots to stay within Duration/2 cuts, trim multi-step action cramming, or adjust [INTENT] duration to match the choreography."
+      }
+    ]
+  }
+}
