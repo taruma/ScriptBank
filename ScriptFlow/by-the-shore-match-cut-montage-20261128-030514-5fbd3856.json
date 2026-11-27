@@ -1,0 +1,677 @@
+{
+  "snapshotHash": "5fbd3856",
+  "document": {
+    "schemaVersion": "0.4.0",
+    "preamble": [],
+    "stagingMacroBlocks": [
+      {
+        "id": "MB0",
+        "header": "INTENT",
+        "kind": "INTENT",
+        "format": "prose",
+        "body": "Create a surreal psychological drama montage set between a dim coastal apartment and a turbulent ocean shoreline, featuring @image1 as Mark as he slips repeatedly from a quiet room into crashing surf."
+      },
+      {
+        "id": "MB1",
+        "header": "LOGIC",
+        "kind": "LOGIC",
+        "format": "prose",
+        "body": "Intercut via visual match cuts across discontinuous locations and lighting states while preserving Mark's spatial orientation across each cut boundary. Keep Mark's rear-facing axis during the initial apartment-to-beach transitions, shift wardrobe cleanly by setting between dry indoor sleepwear in LOC01 and coastal knitwear in LOC02 and LOC03, and maintain matted hair, wet sand, and seawater-drenched clothing from the shoreline awakening through the final twilight close-up."
+      },
+      {
+        "id": "MB2",
+        "header": "AESTHETIC",
+        "kind": "AESTHETIC",
+        "format": "key_value",
+        "entries": [
+          {
+            "id": "MB2.0",
+            "key": "Medium",
+            "value": "Handheld 35mm cinema aesthetic, shallow depth of field, soft organic motion blur, subtle golden-hour lens flare"
+          },
+          {
+            "id": "MB2.1",
+            "key": "Palette",
+            "value": "Deep charcoal shadows, muted warm tungsten amber, overcast slate grey, wet sand taupe, blazing sunset gold"
+          },
+          {
+            "id": "MB2.2",
+            "key": "Lighting",
+            "value": "Dim warm tungsten interior shadow with blown-out window haze -> EV01; flat overcast coastal daylight with low slate contrast -> EV02; low golden-amber sunset backlighting through storm clouds with hexagonal lens flares -> EV03; dim blue-hour coastal twilight with cool slate skin highlights -> EV04"
+          },
+          {
+            "id": "MB2.3",
+            "key": "Location",
+            "value": "Dimly lit bedroom hallway with blurred bright windows and an unmade white-sheeted bed to the right -> LOC01; overcast sandy shoreline with foaming shallow surf -> LOC02; waist-deep churning ocean swells beneath heavy storm clouds -> LOC03"
+          },
+          {
+            "id": "MB2.4",
+            "key": "Wardrobe",
+            "value": "Mark in a dry dark charcoal cotton crewneck sleep tee and dark cotton lounge trousers -> WRD01; Mark in a weathered dark slate-grey crewneck knit sweater over a pale white crew undershirt and dark trousers -> WRD02"
+          },
+          {
+            "id": "MB2.5",
+            "key": "Audio",
+            "value": "Muted interior room tone, coastal wind gusts, lapping shallow surf, and heavy crashing ocean waves"
+          }
+        ]
+      },
+      {
+        "id": "MB3",
+        "header": "OPENING",
+        "kind": "OPENING",
+        "format": "prose",
+        "body": "Handheld MCU at shoulder level from directly behind Mark inside LOC01 under EV01. Frame-center foreground, Mark stands in dark silhouette wearing WRD01 with his back to camera, shoulders level and chin held straight, facing the softly glowing windows. Pale out-of-focus window light hangs in the background while dim shadow conceals the edges of the room."
+      }
+    ],
+    "executionMacroBlock": {
+      "header": "EXECUTION",
+      "macroStates": [
+        {
+          "id": "S1",
+          "subStates": [
+            {
+              "id": "S1.1",
+              "dimension": "camera",
+              "subStateTag": "CAM",
+              "identifier": null,
+              "content": "Handheld MCU from behind, shoulder-level in LOC01 under EV01"
+            },
+            {
+              "id": "S1.2",
+              "dimension": "tier2",
+              "subStateTag": "FOCUS",
+              "content": "shallow depth of field locking sharp on Mark's dark silhouette while glowing windows blur in background"
+            },
+            {
+              "id": "S1.3",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark, frame-center FG wearing WRD01 with his back to camera and shoulders level, stands motionless facing the curtained windows"
+            },
+            {
+              "id": "S1.4",
+              "dimension": "tier2",
+              "subStateTag": "TRANS",
+              "content": "optical match cut locking Mark's head-and-shoulder silhouette contour into the coastal horizon"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "subStates": [
+            {
+              "id": "S2.1",
+              "dimension": "camera",
+              "subStateTag": "CAM",
+              "identifier": null,
+              "content": "Handheld MCU from behind, shoulder-level in LOC02 under EV02"
+            },
+            {
+              "id": "S2.2",
+              "dimension": "tier2",
+              "subStateTag": "ENV",
+              "content": "brisk coastal gusts sweep across the overcast shore as grey-white waves roll toward frame-center"
+            },
+            {
+              "id": "S2.3",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark, frame-center FG in dry WRD02 with his back to camera and shoulders level, tilts his head forward slightly into the wind"
+            },
+            {
+              "id": "S2.4",
+              "dimension": "foley",
+              "sound": "soft snap of dry knit collar in gust"
+            },
+            {
+              "id": "S2.5",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark holds his posture steady as damp sea breeze lifts his dark curls"
+            },
+            {
+              "id": "S2.6",
+              "dimension": "tier2",
+              "subStateTag": "TRANS",
+              "content": "match cut preserving Mark's downward head tilt and dark shoulder silhouette back into the dim bedroom"
+            }
+          ]
+        },
+        {
+          "id": "S3",
+          "subStates": [
+            {
+              "id": "S3.1",
+              "dimension": "camera",
+              "subStateTag": "CAM",
+              "identifier": null,
+              "content": "Handheld MCU from behind, TILTING DOWN slightly in LOC01 under EV01"
+            },
+            {
+              "id": "S3.2",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark, back to camera in dry WRD01 with shoulders slumping, pitches forward"
+            },
+            {
+              "id": "S3.3",
+              "dimension": "foley",
+              "sound": "soft rustle of cotton tee against stagnant room air"
+            },
+            {
+              "id": "S3.4",
+              "dimension": "light",
+              "subStateTag": "LIGHT",
+              "content": "warm tungsten shadow deepens across Mark's shoulders as he drops below the window glow"
+            },
+            {
+              "id": "S3.5",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark collapses sharply downward beside the white-sheeted bed on frame-right, turning his cheek briefly toward screen-right"
+            },
+            {
+              "id": "S3.6",
+              "dimension": "foley",
+              "sound": "muffled thud on floorboards"
+            },
+            {
+              "id": "S3.7",
+              "dimension": "tier2",
+              "subStateTag": "TRANS",
+              "content": "kinetic match-on-action cut riding Mark's downward drop straight onto wet shoreline sand"
+            }
+          ]
+        },
+        {
+          "id": "S4",
+          "subStates": [
+            {
+              "id": "S4.1",
+              "dimension": "camera",
+              "subStateTag": "CAM",
+              "identifier": null,
+              "content": "Handheld ECU at sand level in LOC02 under EV02"
+            },
+            {
+              "id": "S4.2",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark lies motionless on his right side frame-center FG in soaked sand-flecked WRD02, right cheek pressed into wet dark sand with wet sweater collar and white undershirt edge visible at his neck"
+            },
+            {
+              "id": "S4.3",
+              "dimension": "tier2",
+              "subStateTag": "ENV",
+              "content": "pale foaming surf surges across the sand and washes up against Mark's jaw and parted lips"
+            },
+            {
+              "id": "S4.4",
+              "dimension": "foley",
+              "sound": "gentle fizz of foaming water grazing Mark's cheek"
+            },
+            {
+              "id": "S4.5",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark's eyelids flutter slightly as cool seawater pools beneath his jaw and drains away"
+            },
+            {
+              "id": "S4.6",
+              "dimension": "tier2",
+              "subStateTag": "TRANS",
+              "content": "rapid whip-pan blur across foaming wet sand cutting on motion into a low-angle rise"
+            }
+          ]
+        },
+        {
+          "id": "S5",
+          "subStates": [
+            {
+              "id": "S5.1",
+              "dimension": "camera",
+              "subStateTag": "CAM",
+              "identifier": null,
+              "content": "Handheld low-angle MS, slight upward tilt in LOC02 under EV02"
+            },
+            {
+              "id": "S5.2",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark, hair matted and soaked WRD02 clinging to his torso, plants both palms into the wet sand and pushes his chest upward"
+            },
+            {
+              "id": "S5.3",
+              "dimension": "foley",
+              "sound": "heavy splash of draining seawater and wet sand squelch"
+            },
+            {
+              "id": "S5.4",
+              "dimension": "tier2",
+              "subStateTag": "ENV",
+              "content": "seawater streams down Mark's drenched knit sleeves and dark curls as he clears the surf"
+            },
+            {
+              "id": "S5.5",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark rises onto both knees facing screen-left, tilting his head up while gasping for breath"
+            },
+            {
+              "id": "S5.6",
+              "dimension": "foley",
+              "sound": "ragged wet gasp"
+            },
+            {
+              "id": "S5.7",
+              "dimension": "tier2",
+              "subStateTag": "TRANS",
+              "content": "motion-blurred kinetic cut riding Mark's rising shoulders as both hands lift toward his face"
+            }
+          ]
+        },
+        {
+          "id": "S6",
+          "subStates": [
+            {
+              "id": "S6.1",
+              "dimension": "camera",
+              "subStateTag": "CAM",
+              "identifier": null,
+              "content": "Handheld MCU tracking slightly sideways in LOC02 under EV02"
+            },
+            {
+              "id": "S6.2",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark, thoroughly drenched in soaked WRD02 with seawater dripping from his brow, stands unsteadily facing screen-left and presses both wet hands over his eyes"
+            },
+            {
+              "id": "S6.3",
+              "dimension": "foley",
+              "sound": "damp palm rub against soaked skin"
+            },
+            {
+              "id": "S6.4",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark drops both hands to his sides and turns his head sharply away toward the surf on frame-left"
+            },
+            {
+              "id": "S6.5",
+              "dimension": "foley",
+              "sound": "sharp intake of breath"
+            },
+            {
+              "id": "S6.6",
+              "dimension": "tier2",
+              "subStateTag": "TRANS",
+              "content": "continuous handheld motion-follow pivoting around Mark's shoulder into rear tracking"
+            }
+          ]
+        },
+        {
+          "id": "S7",
+          "subStates": [
+            {
+              "id": "S7.1",
+              "dimension": "camera",
+              "subStateTag": "CAM",
+              "identifier": null,
+              "content": "Handheld MCU following from behind in LOC02 under EV02"
+            },
+            {
+              "id": "S7.2",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark, soaked WRD02 clinging to his shoulders with both arms swinging wide for balance, pivots completely away from camera"
+            },
+            {
+              "id": "S7.3",
+              "dimension": "foley",
+              "sound": "heavy wet footsteps splashing through shallow ankle-deep surf"
+            },
+            {
+              "id": "S7.4",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark stumbles forward across the wet sand straight toward the churning overcast breakers"
+            },
+            {
+              "id": "S7.5",
+              "dimension": "tier2",
+              "subStateTag": "TRANS",
+              "content": "surreal temporal smash cut from Mark's retreating overcast silhouette directly into golden-hour sunset swells"
+            }
+          ]
+        },
+        {
+          "id": "S8",
+          "subStates": [
+            {
+              "id": "S8.1",
+              "dimension": "camera",
+              "subStateTag": "CAM",
+              "identifier": null,
+              "content": "Handheld low-angle MLS from water level in LOC03 under EV03"
+            },
+            {
+              "id": "S8.2",
+              "dimension": "tier2",
+              "subStateTag": "ENV",
+              "content": "a dark foreground wave swells across the lower frame as blazing amber sunlight fractures into hexagonal lens flares behind Mark"
+            },
+            {
+              "id": "S8.3",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark, drenched silhouette in soaked WRD02 waist-deep in crashing swells frame-center MG facing screen-left, raises his right hand unsteadily to shield against the glare while keeping his left arm braced in the water"
+            },
+            {
+              "id": "S8.4",
+              "dimension": "foley",
+              "sound": "deep thunderous surf crash and surging water"
+            },
+            {
+              "id": "S8.5",
+              "dimension": "light",
+              "subStateTag": "LIGHT",
+              "content": "warm golden sun flare blooms briefly across Mark's wet shoulders before a wave crest shadows him"
+            },
+            {
+              "id": "S8.6",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark twists his torso back and ducks low behind the rising foreground wave crest"
+            },
+            {
+              "id": "S8.7",
+              "dimension": "foley",
+              "sound": "muffled underwater wash and heavy splash"
+            },
+            {
+              "id": "S8.8",
+              "dimension": "tier2",
+              "subStateTag": "TRANS",
+              "content": "kinetic water-spray wipe cut across the lens into closer surf immersion"
+            }
+          ]
+        },
+        {
+          "id": "S9",
+          "subStates": [
+            {
+              "id": "S9.1",
+              "dimension": "camera",
+              "subStateTag": "CAM",
+              "identifier": null,
+              "content": "Handheld low-angle MS from inside the surf in LOC03 under EV03"
+            },
+            {
+              "id": "S9.2",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark, drenched silhouette in soaked WRD02 backlit by golden flare in waist-deep foam, lurches forward toward screen-left with both arms flailing wide against heavy current"
+            },
+            {
+              "id": "S9.3",
+              "dimension": "foley",
+              "sound": "violent churning splash of breaking swells"
+            },
+            {
+              "id": "S9.4",
+              "dimension": "light",
+              "subStateTag": "LIGHT",
+              "content": "low sunset beams flash through flying sea spray with warm hexagonal flares across the lens"
+            },
+            {
+              "id": "S9.5",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark spins back toward screen-right and slaps both hands downward into the surging foam to steady his footing"
+            },
+            {
+              "id": "S9.6",
+              "dimension": "foley",
+              "sound": "hollow slap of palms on water and ragged exhale"
+            },
+            {
+              "id": "S9.7",
+              "dimension": "tier2",
+              "subStateTag": "TRANS",
+              "content": "abrupt smash cut from wide backlit chaos into a static twilight close-up"
+            }
+          ]
+        },
+        {
+          "id": "S10",
+          "subStates": [
+            {
+              "id": "S10.1",
+              "dimension": "camera",
+              "subStateTag": "CAM",
+              "identifier": null,
+              "content": "Handheld CU, straight-on eye level in LOC02 under EV04"
+            },
+            {
+              "id": "S10.2",
+              "dimension": "tier2",
+              "subStateTag": "FOCUS",
+              "content": "razor-shallow focus locking crisp on Mark's glistening wet eyes while dark crashing waves blur behind him"
+            },
+            {
+              "id": "S10.3",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark, frame-center FG facing camera in soaked WRD02 with matted hair, seawater beading on his cheeks, and wet sweater collar over white undershirt at his throat, holds his shoulders square and stares wide-eyed straight into the lens"
+            },
+            {
+              "id": "S10.4",
+              "dimension": "foley",
+              "sound": "close ragged breath"
+            },
+            {
+              "id": "S10.5",
+              "dimension": "action",
+              "subStateTag": "ACT",
+              "content": "Mark's lips part slightly in a silent stunned exhale without blinking"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "derived": {
+    "referenceBindings": [
+      {
+        "ref": "@image1",
+        "name": "Mark",
+        "sourceMacroBlockId": "MB0",
+        "sourceMacroBlock": "INTENT"
+      }
+    ],
+    "tokenMappings": [
+      {
+        "token": "EV01",
+        "description": "Dim warm tungsten interior shadow with blown-out window haze",
+        "category": "Lighting",
+        "entryId": "MB2.2"
+      },
+      {
+        "token": "EV02",
+        "description": "flat overcast coastal daylight with low slate contrast",
+        "category": "Lighting",
+        "entryId": "MB2.2"
+      },
+      {
+        "token": "EV03",
+        "description": "low golden-amber sunset backlighting through storm clouds with hexagonal lens flares",
+        "category": "Lighting",
+        "entryId": "MB2.2"
+      },
+      {
+        "token": "EV04",
+        "description": "dim blue-hour coastal twilight with cool slate skin highlights",
+        "category": "Lighting",
+        "entryId": "MB2.2"
+      },
+      {
+        "token": "LOC01",
+        "description": "Dimly lit bedroom hallway with blurred bright windows and an unmade white-sheeted bed to the right",
+        "category": "Location",
+        "entryId": "MB2.3"
+      },
+      {
+        "token": "LOC02",
+        "description": "overcast sandy shoreline with foaming shallow surf",
+        "category": "Location",
+        "entryId": "MB2.3"
+      },
+      {
+        "token": "LOC03",
+        "description": "waist-deep churning ocean swells beneath heavy storm clouds",
+        "category": "Location",
+        "entryId": "MB2.3"
+      },
+      {
+        "token": "WRD01",
+        "description": "Mark in a dry dark charcoal cotton crewneck sleep tee and dark cotton lounge trousers",
+        "category": "Wardrobe",
+        "entryId": "MB2.4"
+      },
+      {
+        "token": "WRD02",
+        "description": "Mark in a weathered dark slate-grey crewneck knit sweater over a pale white crew undershirt and dark trousers",
+        "category": "Wardrobe",
+        "entryId": "MB2.4"
+      }
+    ],
+    "hasContinuationContext": false,
+    "sceneTopology": "discontinuous_montage",
+    "cameraSlots": {},
+    "macroStateContinuity": [
+      {
+        "macroStateId": "S1",
+        "activeCameraIdentifier": null,
+        "cameraTransition": "MONTAGE",
+        "currentDescriptor": "Handheld MCU from behind, shoulder-level in LOC01 under EV01",
+        "effectiveFraming": "Handheld MCU from behind, shoulder-level in LOC01 under EV01",
+        "referencedTokens": [
+          "EV01",
+          "LOC01",
+          "WRD01"
+        ]
+      },
+      {
+        "macroStateId": "S2",
+        "activeCameraIdentifier": null,
+        "cameraTransition": "MONTAGE",
+        "currentDescriptor": "Handheld MCU from behind, shoulder-level in LOC02 under EV02",
+        "effectiveFraming": "Handheld MCU from behind, shoulder-level in LOC02 under EV02",
+        "referencedTokens": [
+          "EV02",
+          "LOC02",
+          "WRD02"
+        ]
+      },
+      {
+        "macroStateId": "S3",
+        "activeCameraIdentifier": null,
+        "cameraTransition": "MONTAGE",
+        "currentDescriptor": "Handheld MCU from behind, TILTING DOWN slightly in LOC01 under EV01",
+        "effectiveFraming": "Handheld MCU from behind, TILTING DOWN slightly in LOC01 under EV01",
+        "referencedTokens": [
+          "EV01",
+          "LOC01",
+          "WRD01"
+        ]
+      },
+      {
+        "macroStateId": "S4",
+        "activeCameraIdentifier": null,
+        "cameraTransition": "MONTAGE",
+        "currentDescriptor": "Handheld ECU at sand level in LOC02 under EV02",
+        "effectiveFraming": "Handheld ECU at sand level in LOC02 under EV02",
+        "referencedTokens": [
+          "EV02",
+          "LOC02",
+          "WRD02"
+        ]
+      },
+      {
+        "macroStateId": "S5",
+        "activeCameraIdentifier": null,
+        "cameraTransition": "MONTAGE",
+        "currentDescriptor": "Handheld low-angle MS, slight upward tilt in LOC02 under EV02",
+        "effectiveFraming": "Handheld low-angle MS, slight upward tilt in LOC02 under EV02",
+        "referencedTokens": [
+          "EV02",
+          "LOC02",
+          "WRD02"
+        ]
+      },
+      {
+        "macroStateId": "S6",
+        "activeCameraIdentifier": null,
+        "cameraTransition": "MONTAGE",
+        "currentDescriptor": "Handheld MCU tracking slightly sideways in LOC02 under EV02",
+        "effectiveFraming": "Handheld MCU tracking slightly sideways in LOC02 under EV02",
+        "referencedTokens": [
+          "EV02",
+          "LOC02",
+          "WRD02"
+        ]
+      },
+      {
+        "macroStateId": "S7",
+        "activeCameraIdentifier": null,
+        "cameraTransition": "MONTAGE",
+        "currentDescriptor": "Handheld MCU following from behind in LOC02 under EV02",
+        "effectiveFraming": "Handheld MCU following from behind in LOC02 under EV02",
+        "referencedTokens": [
+          "EV02",
+          "LOC02",
+          "WRD02"
+        ]
+      },
+      {
+        "macroStateId": "S8",
+        "activeCameraIdentifier": null,
+        "cameraTransition": "MONTAGE",
+        "currentDescriptor": "Handheld low-angle MLS from water level in LOC03 under EV03",
+        "effectiveFraming": "Handheld low-angle MLS from water level in LOC03 under EV03",
+        "referencedTokens": [
+          "EV03",
+          "LOC03",
+          "WRD02"
+        ]
+      },
+      {
+        "macroStateId": "S9",
+        "activeCameraIdentifier": null,
+        "cameraTransition": "MONTAGE",
+        "currentDescriptor": "Handheld low-angle MS from inside the surf in LOC03 under EV03",
+        "effectiveFraming": "Handheld low-angle MS from inside the surf in LOC03 under EV03",
+        "referencedTokens": [
+          "EV03",
+          "LOC03",
+          "WRD02"
+        ]
+      },
+      {
+        "macroStateId": "S10",
+        "activeCameraIdentifier": null,
+        "cameraTransition": "MONTAGE",
+        "currentDescriptor": "Handheld CU, straight-on eye level in LOC02 under EV04",
+        "effectiveFraming": "Handheld CU, straight-on eye level in LOC02 under EV04",
+        "referencedTokens": [
+          "EV04",
+          "LOC02",
+          "WRD02"
+        ]
+      }
+    ],
+    "diagnostics": []
+  }
+}
